@@ -12,7 +12,6 @@ local openMenu = function(namespace, name, data)
 	})
 	ESX.SetTimeout(200, function()
 		SetNuiFocus(true, true)
-		TriggerEvent('route68_chatMenu:FocusActive', true)
 	end)
 end
 
@@ -32,7 +31,6 @@ local closeMenu = function(namespace, name)
 	end
 	if OpenedMenuCount == 0 then
 		SetNuiFocus(false)
-		TriggerEvent('route68_chatMenu:FocusActive', false)
 	end
 end
 
