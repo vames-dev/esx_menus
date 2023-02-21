@@ -131,8 +131,8 @@
 			}
 		}
 
-		$("#inputText").focus();
 		$(menuContainer).fadeIn(120);
+		$("#inputText").focus();
 	}
 
 	ESX_MENU.submit = function(namespace, name, data) {
